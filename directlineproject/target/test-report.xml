@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="41.222517">
+<testcase classname="Verify Vehicle exists" name="Test that user registration number of vehicle exists" time="7.02554">
+<system-out><![CDATA[Given I goto dealer portal website..........................................passed
+When I enter OV12UYY registration number....................................passed
+And I click on search button................................................passed
+Then I should see vehicle details...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify Vehicle exists" name="Test that user registration number of vehicle exists 2" time="4.254718">
+<system-out><![CDATA[Given I goto dealer portal website..........................................passed
+When I enter ov12uyy registration number....................................passed
+And I click on search button................................................passed
+Then I should see vehicle details...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify Vehicle exists" name="Test that user registration number of vehicle exists 3" time="4.876528">
+<system-out><![CDATA[Given I goto dealer portal website..........................................passed
+When I enter Ov12UyY registration number....................................passed
+And I click on search button................................................passed
+Then I should see vehicle details...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify Vehicle exists" name="Test that user registration number of vehicle exists 4" time="3.937596">
+<system-out><![CDATA[Given I goto dealer portal website..........................................passed
+When I enter OV12 UYY registration number...................................passed
+And I click on search button................................................passed
+Then I should see vehicle details...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying Input Field" name="Verify Registration Number input field" time="4.206433">
+<system-out><![CDATA[Given I goto dealer portal website..........................................passed
+When I enter  registration number...........................................passed
+And I click on search button................................................passed
+Then I should see the validation error......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying Input Field" name="Verify Registration Number input field 2" time="4.200079">
+<system-out><![CDATA[Given I goto dealer portal website..........................................passed
+When I enter $%££&(*( registration number...................................passed
+And I click on search button................................................passed
+Then I should see the validation error......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying Non-Existing Vehicle" name="Verify vehicle Registration number does not exists" time="3.863766">
+<system-out><![CDATA[Given I goto dealer portal website..........................................passed
+When I enter abcde registration number......................................passed
+And I click on search button................................................passed
+Then I should be able to see Sorry record not found.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying Non-Existing Vehicle" name="Verify vehicle Registration number does not exists 2" time="4.784276">
+<system-out><![CDATA[Given I goto dealer portal website..........................................passed
+When I enter 12345 registration number......................................passed
+And I click on search button................................................passed
+Then I should be able to see Sorry record not found.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying Non-Existing Vehicle" name="Verify vehicle Registration number does not exists 3" time="4.073581">
+<system-out><![CDATA[Given I goto dealer portal website..........................................passed
+When I enter 0V12UYY registration number....................................passed
+And I click on search button................................................passed
+Then I should be able to see Sorry record not found.........................passed
+]]></system-out>
+</testcase>
+</testsuite>

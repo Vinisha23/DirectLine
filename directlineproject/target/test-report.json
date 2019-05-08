@@ -1,0 +1,860 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3355499153,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InitDriver()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Test that user registration number of vehicle exists",
+        "description": "",
+        "id": "verify-vehicle-exists;test-that-user-registration-number-of-vehicle-exists;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 180399803,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.DisposeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2749414351,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I goto dealer portal website",
+            "match": {
+              "location": "VerifyCoverSteps.iGotoDealerPortalWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 239461737,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter OV12UYY registration number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OV12UYY",
+                  "offset": 8
+                }
+              ],
+              "location": "VerifyCoverSteps.iEnterARegistrationNumber(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128317749,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on search button",
+            "match": {
+              "location": "VerifyCoverSteps.clickOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 372447238,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see vehicle details",
+            "match": {
+              "location": "VerifyCoverSteps.iShouldBeAbleToSeeVehicleDetails()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1951225587,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InitDriver()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Test that user registration number of vehicle exists",
+        "description": "",
+        "id": "verify-vehicle-exists;test-that-user-registration-number-of-vehicle-exists;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 160227555,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.DisposeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1355004447,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I goto dealer portal website",
+            "match": {
+              "location": "VerifyCoverSteps.iGotoDealerPortalWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 279484338,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter ov12uyy registration number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ov12uyy",
+                  "offset": 8
+                }
+              ],
+              "location": "VerifyCoverSteps.iEnterARegistrationNumber(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 188164630,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on search button",
+            "match": {
+              "location": "VerifyCoverSteps.clickOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 320611527,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see vehicle details",
+            "match": {
+              "location": "VerifyCoverSteps.iShouldBeAbleToSeeVehicleDetails()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1653888596,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InitDriver()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Test that user registration number of vehicle exists",
+        "description": "",
+        "id": "verify-vehicle-exists;test-that-user-registration-number-of-vehicle-exists;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 161462488,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.DisposeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2242026607,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I goto dealer portal website",
+            "match": {
+              "location": "VerifyCoverSteps.iGotoDealerPortalWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 358382404,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter Ov12UyY registration number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ov12UyY",
+                  "offset": 8
+                }
+              ],
+              "location": "VerifyCoverSteps.iEnterARegistrationNumber(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128389005,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on search button",
+            "match": {
+              "location": "VerifyCoverSteps.clickOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 332379015,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see vehicle details",
+            "match": {
+              "location": "VerifyCoverSteps.iShouldBeAbleToSeeVehicleDetails()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1667894540,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InitDriver()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Test that user registration number of vehicle exists",
+        "description": "",
+        "id": "verify-vehicle-exists;test-that-user-registration-number-of-vehicle-exists;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 172144621,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.DisposeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1415004907,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I goto dealer portal website",
+            "match": {
+              "location": "VerifyCoverSteps.iGotoDealerPortalWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 244398871,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter OV12 UYY registration number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OV12 UYY",
+                  "offset": 8
+                }
+              ],
+              "location": "VerifyCoverSteps.iEnterARegistrationNumber(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106746843,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on search button",
+            "match": {
+              "location": "VerifyCoverSteps.clickOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 331405873,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see vehicle details",
+            "match": {
+              "location": "VerifyCoverSteps.iShouldBeAbleToSeeVehicleDetails()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify Vehicle exists",
+    "description": "\nIn order to Verify Vehicle exists\nAs a User\nI want to enter Valid registration number and see",
+    "id": "verify-vehicle-exists",
+    "keyword": "Feature",
+    "uri": "Feature/VerifyCover_ExistingVehicle.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1612191399,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InitDriver()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Verify Registration Number input field",
+        "description": "",
+        "id": "verifying-input-field;verify-registration-number-input-field;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 207169274,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.DisposeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1829858949,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I goto dealer portal website",
+            "match": {
+              "location": "VerifyCoverSteps.iGotoDealerPortalWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 267180159,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter  registration number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 8
+                }
+              ],
+              "location": "VerifyCoverSteps.iEnterARegistrationNumber(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 176619940,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on search button",
+            "match": {
+              "location": "VerifyCoverSteps.clickOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113412855,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see the validation error",
+            "match": {
+              "location": "VerifyCoverSteps.i_should_see_the_validation_error()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1589868343,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InitDriver()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Verify Registration Number input field",
+        "description": "",
+        "id": "verifying-input-field;verify-registration-number-input-field;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 214760591,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.DisposeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1838504737,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I goto dealer portal website",
+            "match": {
+              "location": "VerifyCoverSteps.iGotoDealerPortalWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 262416922,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter $%££\u0026(*( registration number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$%££\u0026(*(",
+                  "offset": 8
+                }
+              ],
+              "location": "VerifyCoverSteps.iEnterARegistrationNumber(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 144927293,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on search button",
+            "match": {
+              "location": "VerifyCoverSteps.clickOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149601054,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see the validation error",
+            "match": {
+              "location": "VerifyCoverSteps.i_should_see_the_validation_error()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying Input Field",
+    "description": "\nIn order to Verify the Input field\nAs a User\nI want to test field validations",
+    "id": "verifying-input-field",
+    "keyword": "Feature",
+    "uri": "Feature/Verifying_InputField.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1624333872,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InitDriver()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Verify vehicle Registration number does not exists",
+        "description": "",
+        "id": "verifying-non-existing-vehicle;verify-vehicle-registration-number-does-not-exists;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 188181996,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.DisposeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1452652007,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I goto dealer portal website",
+            "match": {
+              "location": "VerifyCoverSteps.iGotoDealerPortalWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 192106059,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter abcde registration number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abcde",
+                  "offset": 8
+                }
+              ],
+              "location": "VerifyCoverSteps.iEnterARegistrationNumber(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 192520717,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on search button",
+            "match": {
+              "location": "VerifyCoverSteps.clickOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 213971661,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should be able to see Sorry record not found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sorry record not found",
+                  "offset": 24
+                }
+              ],
+              "location": "VerifyCoverSteps.i_should_be_able_to_see_Expected_message(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1894166509,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InitDriver()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Verify vehicle Registration number does not exists",
+        "description": "",
+        "id": "verifying-non-existing-vehicle;verify-vehicle-registration-number-does-not-exists;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 203974916,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.DisposeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2043730422,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I goto dealer portal website",
+            "match": {
+              "location": "VerifyCoverSteps.iGotoDealerPortalWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 269062723,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter 12345 registration number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345",
+                  "offset": 8
+                }
+              ],
+              "location": "VerifyCoverSteps.iEnterARegistrationNumber(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 123437142,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on search button",
+            "match": {
+              "location": "VerifyCoverSteps.clickOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 249904457,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should be able to see Sorry record not found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sorry record not found",
+                  "offset": 24
+                }
+              ],
+              "location": "VerifyCoverSteps.i_should_be_able_to_see_Expected_message(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1435321078,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InitDriver()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Verify vehicle Registration number does not exists",
+        "description": "",
+        "id": "verifying-non-existing-vehicle;verify-vehicle-registration-number-does-not-exists;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 202772056,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.DisposeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1842966565,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I goto dealer portal website",
+            "match": {
+              "location": "VerifyCoverSteps.iGotoDealerPortalWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 244734550,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter 0V12UYY registration number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0V12UYY",
+                  "offset": 8
+                }
+              ],
+              "location": "VerifyCoverSteps.iEnterARegistrationNumber(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 150012945,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on search button",
+            "match": {
+              "location": "VerifyCoverSteps.clickOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 197773557,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should be able to see Sorry record not found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sorry record not found",
+                  "offset": 24
+                }
+              ],
+              "location": "VerifyCoverSteps.i_should_be_able_to_see_Expected_message(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying Non-Existing Vehicle",
+    "description": "\nIn order to Verify Vehicle does not exists\nAs a User\nI want to enter Invalid registration number and see",
+    "id": "verifying-non-existing-vehicle",
+    "keyword": "Feature",
+    "uri": "Feature/Verifying_Non_Existing_Vehicle.feature"
+  }
+]
